@@ -1,0 +1,161 @@
+[{
+    "id": "flowers001",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/bouquet-rose.jpg",
+    "name": "Love Forever",
+    "description": "Give a smile to your special ones with this exquisite bouquet of Red Roses",
+    "prices": [{
+        "price": "499",
+        "quantity": "12"
+    }],
+    "details": [
+        "12 Red Roses"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers002",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/basket-of-15-fresh-mixed-roses.jpg",
+    "name": "Basket of Roses",
+    "description": "This round basket of roses has been curated as a perfect gift for your partner",
+    "prices": [{
+        "price": "699",
+        "quantity": "15"
+    }],
+    "details": [
+        "A basket of of 15 Fresh",
+        "Mixed Roses"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers003",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/bouquet-of-10-yellow-roses.jpg",
+    "name": "Bunch of Yellow Roses",
+    "description": "Give a smile to your special ones with this exquisite bouquet of Yellow Roses",
+    "prices": [{
+        "price": "499",
+        "quantity": "12"
+    }],
+    "details": [
+        "12 Yellow Roses"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers004",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/25-yellow-roses-in-a-glass-vase.jpg",
+    "name": "Roses in vase",
+    "description": "Unique flower arrangement of yellow roses in the glass vase",
+    "prices": [{
+        "price": "1195",
+        "quantity": "25"
+    }],
+    "details": [
+        "Number of Roses - 25"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers005",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/charming-red-n-white-roses-bunch.jpg",
+    "name": "Mix Rose bunch",
+    "description": "Make your partner feel loved by presenting them this bunch of roses",
+    "prices": [{
+        "price": "1599",
+        "quantity": "51"
+    }],
+    "details": [
+        "18 Red Rose",
+        "18 White Rose",
+        "15 Green Button mum"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers006",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/purple-orchids-standard.jpg",
+    "name": "Purple Orchids",
+    "description": "Gift a bunch of Purple Orchids wrapped beautifuly give a smile to your special ones",
+    "prices": [{
+        "price": "749",
+        "quantity": "6"
+    }],
+    "details": [
+        "6 Purple Orchids"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers007",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/orchids-and-lilies.jpg",
+    "name": "A bunch of orchids and lilies",
+    "description": "A bunch of orchids and lilies always works to make your partner feel special",
+    "prices": [{
+        "price": "1049",
+        "quantity": "8"
+    }],
+    "details": [
+        "6 Purple Orchids",
+        "2 lilies"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers008",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/flowers.jpg",
+    "name": "Hugs N Kisses",
+    "description": "With this basket arrangement of sensual purple orchids balanced by the passion of the pink roses, capture the many moods of the heart",
+    "prices": [{
+        "price": "1349",
+        "quantity": "26"
+    }],
+    "details": [
+        "20 roses",
+        "6 orchids"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers009",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/bunch-of-12-pink-roses.jpg",
+    "name": "Love for Pink",
+    "description": "Give a smile to your special ones with this exquisite bouquet of Pink Roses",
+    "prices": [{
+        "price": "499",
+        "quantity": "12"
+    }],
+    "details": [
+        "Number of Roses - 12"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers010",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/mix-roses.jpg",
+    "name": "Mix Roses",
+    "description": "A mixture of various flowers of different colours will light up the day of your special recipient",
+    "prices": [{
+        "price": "1299",
+        "quantity": "50"
+    }],
+    "details": [
+        "Number of Roses - 50"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}, {
+    "id": "flowers011",
+    "category": "Flowers",
+    "image_url": "imgs/flowers/premium-rocher-bouquet.jpg",
+    "name": "Chocolate Bouquet",
+    "description": "This bouquet of chocolates set amidst red roses is perfect to embrace the most loving relationship of your life",
+    "prices": [{
+        "price": "1599",
+        "quantity": "30"
+    }],
+    "details": [
+        "Number of red roses - 15",
+        "Number of chocolates - 15"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}]

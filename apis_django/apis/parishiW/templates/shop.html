@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}All {{category}}{% endblock %}
+
+{% block body %}
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+            {% if found %}
+                {% for item in items %}
+                <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="single-shop-product">
+                        <div class="product-upper">
+                            <a href="{% url 'item_detail' item.category item.id %}">
+                                <img src="{% static item.image_url %}" alt="" style="height:270px;">
+                            </a>
+                        </div>
+                        <h2><a href="{% url 'item_detail' item.category item.id %}">{{item.name}}</a></h2>
+                        <div class="product-carousel-price">
+                            <button type="button" data-toggle="popover" title="{{item.name}}" data-content="
+                                <table class='table table-bordered table-responsive'>
+                                    <thead>
+                                      <tr>
+                                        <th>Cost (in Rs.)</th>
+                                        <th>Quantity</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for p in item.prices %}
+                                        <tr>
+                                            <td>{{ p.price }}</td>
+                                            <td>{{ p.quantity }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            " data-html="true" class="btn btn-primary">View Price</button>
+                        </div>                       
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <h1 style='color:red;'>{{msg}}</h1>
+            {% endif %} 
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="product-pagination text-center">
+                        {% if items.has_other_pages %}
+                          <ul class="pagination">
+                            {% if items.has_previous %}
+                              <li><a href="{% url 'items_list' category_formatted items.previous_page_number %}">&laquo;</a></li>
+                            {% else %}
+                              <li class="disabled"><span>&laquo;</span></li>
+                            {% endif %}
+                            {% for i in items.paginator.page_range %}
+                              {% if items.number == i %}
+                                <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                              {% else %}
+                                <li><a href="{% url 'items_list' category_formatted i %}">{{ i }}</a></li>
+                              {% endif %}
+                            {% endfor %}
+                            {% if items.has_next %}
+                              <li><a href="{% url 'items_list' category_formatted items.next_page_number %}">&raquo;</a></li>
+                            {% else %}
+                              <li class="disabled"><span>&raquo;</span></li>
+                            {% endif %}
+                          </ul>
+                        {% endif %}                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block script_block %}  
+    <script>
+        $('[data-toggle="popover"]').popover();   
+    </script>
+{% endblock %}

@@ -1,0 +1,253 @@
+[{
+    "id": "cake001",
+    "category": "Cakes",
+    "name": "Vanilla Cake",
+    "description": "Share your feelings with our freshly baked Soft White Vanilla Cake with an elegant design",
+    "prices": [{
+        "price": "499",
+        "quantity": "0.5 Kg"
+    },{
+        "price": "799",
+        "quantity": "1 Kg"
+    }],
+    "details": [
+      "Cherry on Top",
+      "Egg/Eggless",
+      "Round/Heart Vanilla Cake",
+      "In 4 Sizes: 0.5 Kg, 1 Kg, 1.5 Kg, 2 Kg"
+    ],
+    "image_url": "imgs/cakes/vanilla-cake.jpg",
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake002",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/butterscotch.jpg",
+    "name": "Choco Butterscotch Cake",
+    "description": "Share your feelings and Tickle the taste buds of your dear ones by our freshly baked Choco Butterstcotch Cake",
+    "prices": [{
+        "price": "549",
+        "quantity": "0.5 kg"
+    },{
+        "price": "899",
+        "quantity": "1 kg"
+    }],
+    "details": [
+      "Dark Chocolate Layer on the Top",
+      "Egg/Eggless",
+      "In 4 Sizes: 0.5 Kg, 1 Kg, 1.5 Kg and 2 Kg",
+      "Round Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake003",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/black-forest-cake.jpg",
+    "name": "Blackforest Cake",
+    "description": "Share your feelings with layers of sponge cake, chocolate, fresh cream and chocolate shaving",
+    "prices": [{
+      "price": "549",
+      "quantity": "0.5 kg"
+    },{
+      "price": "899",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Whipped crunchy Chocolate & Delicious Cherries",
+      "Egg/Eggless",
+      "In 4 Sizes: 0.5 Kg, 1 Kg, 1.5 Kg and 2 Kg",
+      "Round Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake004",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/dark-chocolate-cake.jpg",
+    "name": "Dark chocolate Cake",
+    "description": "Cake with a chocolaty treat to the plates as well as eyes of our loved ones.",
+    "prices": [{
+      "price": "549",
+      "quantity": "0.5 kg"
+    },{
+      "price": "899",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 3 Sizes: 0.5 Kg, 1 Kg, 1.5 Kg",
+      "Round Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake005",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/pineapple-royal-cake.jpg",
+    "name": "Pineapple Cake",
+    "description": "If you wish to make special celebrations grand, then order this mouth watering cake in pineapple flavor",
+    "prices": [{
+      "price": "399",
+      "quantity": "0.5 kg"
+    },{
+      "price": "699",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "CherryDemoView on Top",
+      "Egg/Eggless",
+      "In 4 Sizes: 0.5 Kg, 1 Kg, 1.5 Kg, 2 Kg",
+      "Round Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake006",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/chocolate-walnut-truffle.jpg",
+    "name": "Chocolate Walnut Cake",
+    "description": "The Chocolate Truffle Cake is an ideal choice to soothe the taste buds of all the chocolate-lovers",
+    "prices": [{
+      "price": "599",
+      "quantity": "0.5 kg"
+    },{
+      "price": "999",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 3 Sizes: 0.5 Kg, 1 Kg, 1.5 Kg",
+      "Round Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake007",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/chocolate-gems-cake.jpg",
+    "name": "Chocolate Gems Cake",
+    "description": "A flavaourful and amazing combination of kitkat and gems Chocolate cake",
+    "prices": [{
+        "price": "699",
+        "quantity": "0.5 kg"
+      },{
+        "price": "1049",
+        "quantity": "1 kg"
+    }],
+    "details": [
+      "Yummy Kitkat and Gems",
+      "Egg/Eggless",
+      "In 3 Sizes: 0.5 Kg, 1 Kg, 1.5 Kg, 2 kg",
+      "Round Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake008",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/chocolate-fresh-fruit-cake.jpg",
+    "name": "Chocolate Fresh Fruit Cake",
+    "description": "Treat your loved onces with this delicious chocolate fruit cake",
+    "prices": [{
+      "price": "549",
+      "quantity": "0.5 kg"
+    },{
+      "price": "899",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 4 Sizes:0.5 Kg, 1 Kg, 1.5 Kg, 2 kg",
+      "Round Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake009",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/mixed-fruit-cake.jpg",
+    "name": "Mixed Fruit Cake",
+    "description": "Let your dear ones know how much you care by pampering them with this lavish cake in mix fruit flavor",
+    "prices": [{
+      "price": "549",
+      "quantity": "0.5 kg"
+    },{
+      "price": "899",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 4 Sizes:0.5 Kg, 1 Kg, 1.5 Kg, 2 kg",
+      "Heart Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake010",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/heartshape-red-velvet-cake.jpg",
+    "name": "Heartshape Red Velvet Cake",
+    "description": "Get a lovely and charming Red Velvet Cake to declare your love.This delicious Chocolate Cake is sure to win hearts.",
+    "prices": [{
+      "price": "699",
+      "quantity": "0.5 kg"
+    },{
+      "price": "1049",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 4 Sizes:0.5 Kg, 1 Kg, 1.5 Kg, 2 kg",
+      "Round/Heart Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake011",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/heart-shape-chocolate-truffle-cake.jpg",
+    "name": "Heart Shape Chocolate Cake",
+    "description": "Chocolate truffle cake and comes in a heart shape",
+    "prices": [{
+      "price": "599",
+      "quantity": "0.5 kg"
+    },{
+      "price": "1049",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 4 Sizes:0.5 Kg, 1 Kg, 1.5 Kg, 2 kg",
+      "Heart Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake012",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/heart-shape-chocolate-photo-cake.jpg",
+    "name": "Heart Shape Chocolate Photo Cake",
+    "description": "You can get a nice picture printed on this cake to make the special day more special for your loved ones.",
+    "prices": [{
+      "price": "599",
+      "quantity": "0.5 kg"
+    },{
+      "price": "1049",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 4 Sizes: 0.5 kg, 1 kg, 1.5 kg, 2 kg",
+      "Heart Shape/Round/Square Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+},{
+  "id": "cake013",
+  "category": "Cakes",
+  "image_url": "imgs/cakes/chocolate-photo-cake.jpg",
+    "name": "Photo Cake",
+    "description": "You can get a nice picture printed on this cake to make the special day more special for your loved ones.",
+    "prices": [{
+      "price": "599",
+      "quantity": "0.5 kg"
+    },{
+      "price": "1049",
+      "quantity": "1 kg"
+    }],
+    "details": [
+      "Egg/Eggless",
+      "In 4 Sizes: 0.5 kg, 1 kg, 1.5 kg, 2 kg",
+      "Heart Shape/Round/Square Shape"
+    ],
+    "delivery_instructions": "Cakes being a perishable item, the delivery can be made only once and the order may not be redirected to any other address"
+}]

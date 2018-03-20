@@ -1,0 +1,148 @@
+[{
+  "id": "combos_and_hampers001",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/luminous-sweet-crunch.jpg",
+    "name": "Sweet N Crunch",
+    "description": "A happy gift hamper would definitely make your loved ones smile brighter",
+    "prices": [{
+        "price": "799",
+        "quantity": "1 set"
+    }],
+    "details": [
+      "Box of Soan Papdi - 250 grams",
+      "Almonds - 100 grams",
+      "Cadbury Fruit & Nut Chocolate - 2 (38 grams each)"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers002",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/dad-basket.jpg",
+    "name": "Super Dad",
+    "description": "A happy gift hamper would definitely make your dad smile brighter",
+    "prices": [{
+        "price": "799",
+        "quantity": "1 set"
+    }],
+    "details": [
+      "Super Dad Mug",
+      "Temptations",
+      "Tetley 10 bags",
+      "Tulsi 25 bags",
+      "Basket"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers003",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/chocolate-cane-basket.jpg",
+    "name": "Chocolate Cane Basket",
+    "description": "A chocolate hamper would definitely make your loved ones more chocolaty",
+    "prices": [{
+        "price": "949",
+        "quantity": "1 set"
+    }],
+    "details": [
+      "Round Cane Basket (Diameter 7 Inches)",
+      "Cadbury Dairy Milk Chocolates - 12 (12.5 grams each)",
+      "Cadbury Chocolairs Gold Candy - 30"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers004",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/teddy-combo.jpg",
+    "name": "Sweet Combo 1",
+    "description": "A perfect combo for someone who brightens your life.",
+    "prices": [{
+        "price": "1349",
+        "quantity": "1"
+    }],
+    "details": [
+      "12 Yellow Rose bunch",
+      "16 Pcs Ferrero Rocher",
+      "6\" cute teddy"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers005",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/wooden-flower-rickshaw.jpg",
+    "name": "Sweet Combo 2",
+    "description": "A happy gift hamper would definitely make your loved ones smile brighter",
+    "prices": [{
+        "price": "949",
+        "quantity": "1"
+    }],
+    "details": [
+      "12 Roses",
+      "Wooden cycle",
+      "Teddy"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers006",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/baby-basket.jpg",
+    "name": "Sweet Combo 3",
+    "description": "You can gift New Baby Basket to a newly born baby for his/her special care",
+    "prices": [{
+        "price": "1299",
+        "quantity": "1"
+    }],
+    "details": [
+      "Handle basket",
+      "Johnson's baby soap 75g",
+      "Baby powder 100g",
+      "Baby hair oil 50ml",
+      "Baby oil 50ml",
+      "Baby shampoo 50ml",
+      "Baby feeding bottle",
+      "Honey nipple"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers007",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/beautiful-flowers-with-sweet.jpg",
+    "name": "Sweet Combo 4",
+    "description": "Perfect to celebrate love and life with each treasured bloom! This combo is perfect to convey your message of heartfelt love and affection.",
+    "prices": [{
+        "price": "1899",
+        "quantity": "1"
+    }],
+    "details": [
+      "8 pink caranation",
+      "4 white caranation",
+      "16 Pcs Ferrero Rocher"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers008",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/chocolate-flower-combo.jpg",
+    "name": "Sweet Combo 5",
+    "description": "Perfect to celebrate love and life with each treasured bloom! This combo is perfect to convey your message of heartfelt love and affection.",
+    "prices": [{
+        "price": "1099",
+        "quantity": "1"
+    }],
+    "details": [
+      "6 pink roses",
+      "6 white roses",
+      "16 Pcs Ferrero Rocher"
+    ],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+},{
+  "id": "combos_and_hampers009",
+  "category": "Combos and Hampers",
+  "image_url": "imgs/combos_and_hampers/flower-rickshaw.jpg",
+    "name": "Sweet Combo 6",
+    "description": "The flower trolly is a perfect gift for your loved onces.",
+    "prices": [{
+        "price": "699",
+        "quantity": "1"
+    }],
+    "details": [],
+    "delivery_instructions": "The image displayed is indicative in nature. Actual product may vary in shape or design as per the availability"
+}]

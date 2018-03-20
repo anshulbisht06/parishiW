@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}{{item.name}} under {{item.category}}{% endblock %}
+
+{% block body %}
+    
+    <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                {% if found %}
+                    <div class="product-content-right">
+                        <div class="product-breadcroumb">
+                            <a href="{% url 'home_page' %}">Home</a>
+                            <a href="{% url 'items_list' category 1 %}">>{{ item.category }}</a>
+                            <span>{{ item.name }}</span>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="{% static item.image_url %}"  alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="product-inner">
+                                    <h2 class="product-name">{{ item.name }}</h2>
+                                    <div class="product-inner-price">
+                                        <table class="table table-bordered table-responsive">
+                                            <thead>
+                                              <tr>
+                                                <th>Cost (in Rs.)</th>
+                                                <th>Quantity</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                                {% for p in item.prices %}
+                                                <tr>
+                                                    <td>{{ p.price }}</td>
+                                                    <td>{{ p.quantity }}</td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>    
+                                    
+                                    <div style='color:red;'>
+                                        <p>Delivery Instruction : {{ item.delivery_instructions }}</p>
+                                    </div><br/>
+                                    
+                                    <div role="tabpanel">
+                                        <ul class="product-tab" role="tablist">
+                                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
+                                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Details</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane fade in active" id="home">
+                                                <h2>Product Description</h2>  
+                                                <p>{{ item.description }}</p>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="profile">
+                                                <h2>Details</h2>
+                                                <p>
+                                                    <ol>
+                                                        {% for d in item.details %}
+                                                            <li>{{ d }}</li>
+                                                        {% endfor %}
+                                                    </ol>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% else %}
+                        <h1 style='color:red;'>{{msg}}</h1>
+                    {% endif %}                 
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Welcome Home {% endblock %}
+
+{% block body %}
+  <div>
+   
+    <div class="slider-area">
+    	<!-- Slider -->
+		<div class="block-slider block-slider4">
+			<ul class="" id="bxslider-home4">
+				<li>
+					<img src="{% static 'imgs/slider-image-1.jpg' %}" alt="Slide">
+					<div class="caption-group caption-group-1-position">
+						<h2 class="caption title">
+							<span class="primary"><strong>Flavoured Cakes</strong></span>
+						</h2>
+                        <h4 class="caption subtitle">Egg/Eggless Cakes with different sizes</h4>
+						<a class="caption button-radius" href="/cakes"><span class="icon"></span>Shop now</a>
+					</div>
+				</li>
+				<li><img src="{% static 'imgs/slider-image-2.jpg' %}" alt="Slide">
+					<div class="caption-group caption-group-2-position">
+						<h2 class="caption title">
+							<span class="primary">Flowers <strong>&amp;</strong> Chocolates</span>
+						</h2>
+						<h4 class="caption subtitle">Different varieties of flowers</h4>
+						<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+					</div>
+				</li>
+				<li><img src="{% static 'imgs/slider-image-3.jpg' %}" alt="Slide">
+					<div class="caption-group caption-group-3-position">
+						<h2 class="caption title">
+							<span class="primary">Combos <strong>&amp;</strong> Hampers</span>
+						</h2>
+						<h4 class="caption subtitle">Beautiful Gift Hamper with Message Gifts Hamper for Special Ones</h4>
+						<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- ./Slider -->
+    </div> <!-- End slider area -->
+    
+    <div class="promo-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-promo promo1">
+                        <i class="fa fa-refresh"></i>
+                        <p>30 Days return</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-promo promo2">
+                        <i class="fa fa-truck"></i>
+                        <p>Free shipping</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-promo promo3">
+                        <i class="fa fa-lock"></i>
+                        <p>Secure payments</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-promo promo4">
+                        <i class="fa fa-gift"></i>
+                        <p>New products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End promo area -->
+    
+    <div class="maincontent-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="latest-product">
+                        <h2 class="section-title">Latest Items</h2>
+                        <div class="product-carousel">
+                        {% for item in latest_items %}
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="{% static item.image_url %}" alt="">
+                                    <div class="product-hover">
+                                        <a href="{% url 'item_detail' item.category item.id %}" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+                                <h2><a href="{% url 'item_detail' item.category item.id %}">{{item.name}}</a></h2>
+                                <div class="product-carousel-price">
+                                    <button type="button" data-toggle="popover" title="{{item.name}}" data-content="
+                                        <table class='table table-bordered table-responsive'>
+                                            <thead>
+                                              <tr>
+                                                <th>Cost (in Rs.)</th>
+                                                <th>Quantity</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                                {% for p in item.prices %}
+                                                <tr>
+                                                    <td>{{ p.price }}</td>
+                                                    <td>{{ p.quantity }}</td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    " data-html="true" class="btn btn-primary" data-placement="top">View Price</button>
+                                </div>                            
+                            </div>
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End main content area -->   
+  </div>
+{% endblock %}
+
+{% block script_block %}  
+    <script>
+        $('[data-toggle="popover"]').popover();   
+    </script>
+{% endblock %}
