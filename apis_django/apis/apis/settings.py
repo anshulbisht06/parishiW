@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'apis',
-    'parishiW'
+    'ayushi'
 
 ]
 
@@ -59,7 +59,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, '..', 'parishiW', 'templates')
+            os.path.join(BASE_DIR, '..', 'ayushi', 'templates')
         ],
         'APP_DIRS': True,
         'OPTIONS': {

@@ -1,5 +1,5 @@
 from django.urls import path, include
-from parishiW import views
+from ayushi import views
 
 urlpatterns = [
 	path('error/<int:code>/', views.ErrorPageView.as_view(), name='error_page'),
